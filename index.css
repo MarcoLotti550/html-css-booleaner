@@ -1,6 +1,3 @@
-body{
-    margin-right: 2%;
-}
 header{
     box-sizing: border-box;
     background-attachment: scroll;
@@ -14,6 +11,14 @@ header{
     margin-left: 5px;
     margin-bottom: 1%;
 }
+section{
+    max-width: 55%;
+}
+h1{
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 50%;
+}
 .info{
     color: grey;
     font-size: 10px;
@@ -24,10 +29,6 @@ header{
 .evidenziato{
     background-color: yellow;
 }
-
-thead{
-    background-color: rgb(0, 81, 255);
-} 
 #riga1{
     background-color: rgb(0, 153, 255);
     color: white;
@@ -42,13 +43,13 @@ thead{
 }
 .colonna1{
     box-sizing: border-box;
-    width: 12%;
+    width: 15%;
     display: inline-block;
 }
 .colonna2{
     box-sizing: border-box;
     display: inline-block;
-    width: 12%;
+    width: 15%;
     margin-left: 12%;
 }
 .colonna3{
@@ -56,9 +57,6 @@ thead{
     display: inline-block;
     margin-left: 12%;
     width: 45%;   
-}
-span - .colonna1{
-    margin-bottom: 20px;
 }
 .info1{
     color: grey;
@@ -68,20 +66,22 @@ span - .colonna1{
     box-sizing: border-box;
     background-image: url(img/monitor.jpg);
     height: 208px;
-    max-width: 20%;
+    max-width: 15%;
     color: white;
     padding-left: 10px;
     padding-top: 10px;
     font-size: 20px;
     margin-bottom: 20px;
+    background-repeat: no-repeat;
 }
 .PI1{
     box-sizing: border-box;
     background-image: url(img/graph.jpg);
     height: 210px;
-    max-width: 20%;
+    max-width: 15%;
     color: white;
     padding-left: 10px;
     padding-top: 10px;
     font-size: 20px;
+    background-repeat: no-repeat;
 }
