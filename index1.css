@@ -1,0 +1,94 @@
+header{
+    box-sizing: border-box;
+    background-attachment: scroll;
+    background-image: url(img/pattern.png);
+    background-color: rgb(21, 128, 250);
+    margin: -8px; /* funziona ma non so se sia corretto */
+}
+#logo{
+    width: 20%;
+    margin-top: 3%;
+    margin-left: 10%;
+    margin-bottom: 1%;
+}
+.ind , .ind1 , .ind2{
+    max-width: 80%;
+    margin-left: 10%;
+}
+.img{
+    width: 750px;
+    height: 550px;
+}
+h1{
+    box-sizing: border-box;
+    display: inline-block;
+    max-width: 80%;
+    font-size: 40px;
+}
+div.info{
+    color: grey;
+    font-size: 10px;
+}
+#scrittore{
+    color:rgb(21, 128, 250) ;
+}
+.evidenziato{
+    background-color: yellow;
+}
+#riga1{
+    background-color: rgb(0, 153, 255);
+    color: white;
+}
+#riga2{
+    background-color: rgba(0, 204, 255, 0.425);
+    box-sizing: border-box;
+}
+#riga3{
+    background-color: rgba(255, 255, 255, 0.425);
+    box-sizing: border-box;
+}
+.colonna1{
+    box-sizing: border-box;
+    width: 15%;
+    display: inline-block;
+}
+.colonna2{
+    box-sizing: border-box;
+    display: inline-block;
+    width: 15%;
+    margin-left: 12%;
+}
+.colonna3{
+    box-sizing: border-box;
+    display: inline-block;
+    margin-left: 12%;
+    width: 45%;   
+}
+
+.info1{
+    color: grey;
+    font-size: 17px;
+}
+.PI{
+    box-sizing: border-box;
+    background-image: url(img/monitor.jpg);
+    height: 208px;
+    max-width: 15%;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    margin-bottom: 20px;
+    background-repeat: no-repeat;
+}
+.PI1{
+    box-sizing: border-box;
+    background-image: url(img/graph.jpg);
+    height: 210px;
+    max-width: 15%;
+    color: white;
+    padding-left: 10px;
+    padding-top: 10px;
+    font-size: 20px;
+    background-repeat: no-repeat;
+}
