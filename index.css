@@ -3,7 +3,8 @@ header{
     background-attachment: scroll;
     background-image: url(img/pattern.png);
     background-color: rgb(21, 128, 250);
-    margin: -8px; /* funziona ma non so se sia corretto */
+    margin: 0px;
+    padding: 0px;
 }
 #logo{
     width: 20%;
